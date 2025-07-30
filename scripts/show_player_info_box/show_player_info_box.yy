@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"show_player_info_box",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"show_player_info_box",
+  "parent":{
+    "name":"GUI",
+    "path":"folders/Scripts/GUI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

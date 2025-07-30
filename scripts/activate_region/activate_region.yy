@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"activate_region",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"activate_region",
+  "parent":{
+    "name":"World",
+    "path":"folders/Scripts/World.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

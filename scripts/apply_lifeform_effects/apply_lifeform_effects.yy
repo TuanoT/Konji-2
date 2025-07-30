@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"apply_lifeform_effects",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"apply_lifeform_effects",
+  "parent":{
+    "name":"World",
+    "path":"folders/Scripts/World.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

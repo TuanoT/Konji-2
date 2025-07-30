@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"reset_inventory",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"reset_inventory",
+  "parent":{
+    "name":"World",
+    "path":"folders/Scripts/World.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
