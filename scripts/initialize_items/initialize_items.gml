@@ -11,4 +11,5 @@ function initialize_items() {
 	create_ring(7, "Copper Speed Ring", spr_item_copper_speed_ring, "Tier 2", 0, 1);
 	create_tome(8, "Paper tome", spr_item_paper_tome, "Tier 1", 20, , ["Healing"], [60]);
 	create_egg(9, "Ant Egg", spr_item_ant_egg, "Tier 1", spr_proj_pet_ant, 10, 96, 1, 6, , false, spr_pet_ant);
+	create_weapon(10, "Bone Knife", spr_item_bone_knife, "Tier 2", spr_proj_bone_knife, 10, 64, 2, 4, snd_knife_fire);
 }

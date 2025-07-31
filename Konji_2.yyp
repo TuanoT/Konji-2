@@ -97,6 +97,7 @@
     {"id":{"name":"rm_dead","path":"rooms/rm_dead/rm_dead.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_nexus","path":"rooms/rm_nexus/rm_nexus.yy",},},
+    {"id":{"name":"rm_options","path":"rooms/rm_options/rm_options.yy",},},
     {"id":{"name":"rm_overworld_1","path":"rooms/rm_overworld_1/rm_overworld_1.yy",},},
     {"id":{"name":"activate_region","path":"scripts/activate_region/activate_region.yy",},},
     {"id":{"name":"apply_lifeform_effects","path":"scripts/apply_lifeform_effects/apply_lifeform_effects.yy",},},
@@ -117,6 +118,7 @@
     {"id":{"name":"load_game","path":"scripts/load_game/load_game.yy",},},
     {"id":{"name":"main_menu","path":"scripts/main_menu/main_menu.yy",},},
     {"id":{"name":"nothing","path":"scripts/nothing/nothing.yy",},},
+    {"id":{"name":"options","path":"scripts/options/options.yy",},},
     {"id":{"name":"reset_inventory","path":"scripts/reset_inventory/reset_inventory.yy",},},
     {"id":{"name":"resume_game","path":"scripts/resume_game/resume_game.yy",},},
     {"id":{"name":"return_to_nexus","path":"scripts/return_to_nexus/return_to_nexus.yy",},},
@@ -212,6 +214,7 @@
     {"roomId":{"name":"rm_nexus","path":"rooms/rm_nexus/rm_nexus.yy",},},
     {"roomId":{"name":"rm_overworld_1","path":"rooms/rm_overworld_1/rm_overworld_1.yy",},},
     {"roomId":{"name":"rm_dead","path":"rooms/rm_dead/rm_dead.yy",},},
+    {"roomId":{"name":"rm_options","path":"rooms/rm_options/rm_options.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

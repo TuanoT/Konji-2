@@ -1,1 +1,2 @@
 text = "Options";
+func = options;
