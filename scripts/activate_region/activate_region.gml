@@ -9,7 +9,7 @@ function activate_region() {
 	
 		var _xcam = camera_get_view_x(view_camera[0]);
 		var _ycam = camera_get_view_y(view_camera[0]);
-		var _border = 64;
+		var _border = 128;
 		instance_activate_region(_xcam-_border, _ycam-_border,
 								 512+_border, 384+_border, true);
 	}

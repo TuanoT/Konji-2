@@ -1,4 +1,4 @@
-0/// @description Initalise
+/// @description Initalise
 
 image_speed = 0;
 rotation_speed = 5;

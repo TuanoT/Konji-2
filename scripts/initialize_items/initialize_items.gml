@@ -10,4 +10,5 @@ function initialize_items() {
 	create_ring(6, "Copper Wisdom Ring", spr_item_copper_wisdom_ring, "Tier 1", 0, 0, 0, 1);
 	create_ring(7, "Copper Speed Ring", spr_item_copper_speed_ring, "Tier 2", 0, 1);
 	create_tome(8, "Paper tome", spr_item_paper_tome, "Tier 1", 20, , ["Healing"], [60]);
+	create_egg(9, "Ant Egg", spr_item_ant_egg, "Tier 1", spr_proj_ant, 10, 128, 1, 8, , );
 }

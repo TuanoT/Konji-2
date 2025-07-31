@@ -96,7 +96,7 @@ if (_in_box && global.inventory && global.free_mouse) {
 // Increment level
 if global.xp >= 100 {
 	global.levels += 1;
-	global.xp -= 1;
+	global.xp = 0;
 }
 
 

@@ -12,7 +12,8 @@ base_spd = 1.25;
 base_vit = 1;
 wisdom = 1;
 base_wis = 1;
-ycenter = -16;
+ycenter = -16;		// How far the center is from the origin
+pet_instance = -1;  // Create pet instance
 
 // Create Camera Controller
 instance_create_depth(x, y, 0, obj_camera_controller);
@@ -33,3 +34,12 @@ if (global.player_hp != 0) {
 	hp = global.player_hp;
 	iq = global.player_iq;
 }
+
+// (re)create Pet
+function create_pet() {
+	instance_destroy(obj_pet_parent);
+	pet_instance = instance_create_depth(x, y, depth, obj_pet_parent);
+}
+
+// Testing
+create_pet();

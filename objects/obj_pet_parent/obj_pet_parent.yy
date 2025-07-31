@@ -1,7 +1,11 @@
 {
   "$GMObject":"",
   "%Name":"obj_pet_parent",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_pet_parent",
   "overriddenProperties":[],
@@ -31,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ant",
-    "path":"sprites/spr_ant/spr_ant.yy",
+    "name":"spr_pet_ant",
+    "path":"sprites/spr_pet_ant/spr_pet_ant.yy",
   },
   "spriteMaskId":null,
   "visible":true,
