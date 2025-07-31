@@ -36,10 +36,18 @@ if (global.player_hp != 0) {
 }
 
 // (re)create Pet
-function create_pet() {
+function create_pet(_egg_id) {
 	instance_destroy(obj_pet_parent);
 	pet_instance = instance_create_depth(x, y, depth, obj_pet_parent);
+	
+	// Set values
+	pet_instance.sprite_index = global.item_pet_sprite[_egg_id];
+	pet_instance.proj_damage[0] = global.item_damage[_egg_id];
+	pet_instance.proj_range[0] = global.item_range[_egg_id];
+	pet_instance.shoot_time[0] = 60 div global.item_firerate[_egg_id];
+	pet_instance.proj_sprite[0] = global.item_proj_sprite[_egg_id];
+	pet_instance.proj_speed[0] = global.item_proj_speed[_egg_id];
 }
 
 // Testing
-create_pet();
+create_pet(9);

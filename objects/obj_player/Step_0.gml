@@ -85,6 +85,15 @@ if (ring_slot.item != -1 && global.item_type[ring_slot.item] == "ring") {
 	wisdom += global.item_wisdom[_i];
 }
 
+// Find ring egg stats and create pets
+if (pet_slot.item != -1 && global.item_type[pet_slot.item] == "egg") {
+	if !instance_exists(obj_pet_parent) {
+		create_pet(pet_slot.item);	
+	}
+} else {
+	instance_destroy(obj_pet_parent);
+}
+
 
 // Draw Mr. Konji info box
 var _in_box = point_in_rectangle(mouse_x, mouse_y, x-8, y-32, x+8, y);

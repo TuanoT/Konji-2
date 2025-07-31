@@ -3,7 +3,7 @@
 function create_egg(_id, _name, _sprite, _tier="Untiered",
 					   _proj_sprite=spr_controller, _dmg=10, _range=128,
 					   _firerate=1, _proj_speed=4, _sound=snd_throw,
-					   _proj_rot=false) {
+					   _proj_rot=false, _pet_sprite=spr_pet_ant) {
 						   
 	create_default(_id);
 	
@@ -18,4 +18,5 @@ function create_egg(_id, _name, _sprite, _tier="Untiered",
 	global.item_proj_speed[_id] = _proj_speed;
 	global.item_sound[_id] = _sound;
 	global.item_proj_rotate[_id] = _proj_rot;
+	global.item_pet_sprite[_id] = spr_pet_ant;
 }

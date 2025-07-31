@@ -24,4 +24,5 @@ function create_default(_id) {
 	global.item_subtype[_id] = "default";
 	global.item_effects[_id] = [];
 	global.item_effect_amounts[_id] = []
+	global.item_pet_sprite[_id] = -1;
 }
