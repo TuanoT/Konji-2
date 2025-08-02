@@ -10,14 +10,14 @@ if global.load_queued {
 // INVENTORY //
 if !global.paused {
 
-	// Find hovered slot
+	// Find the slot that the cursor is hovering over
 	if global.inventory {
 		global.hovered_slot = instance_position(mouse_x - camera_get_view_x(view_camera[0]), mouse_y - camera_get_view_y(view_camera[0]), obj_inventory_slot);
 	} else {
 		global.hovered_slot = noone;	
 	}
 
-	// Pick up item
+	// Pick up item on left pressed
 	if (mouse_check_button_pressed(mb_left) && global.hovered_slot != noone && global.hovered_slot.active) {
 		global.held_item = global.hovered_slot.item;
 		global.hovered_slot.item = -1;
@@ -29,10 +29,8 @@ if !global.paused {
 		}
 	}
 
-	// Place item
+	// Place item of left released
 	if (mouse_check_button_released(mb_left) && global.held_item != -1) {
-	
-		// Place in new slot
 		if global.hovered_slot != noone && global.hovered_slot.active {
 		
 			// Move Item to previous slot
