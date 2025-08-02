@@ -1,11 +1,5 @@
 /// @description
 
-// Load game
-if global.load_queued {
-	global.load_queued = false;
-	load_game();
-}
-
 
 // INVENTORY //
 if !global.paused {

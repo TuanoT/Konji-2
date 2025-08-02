@@ -26,9 +26,6 @@ initialize_loot_tables();
 initialize_enemy_tables();
 randomize();
 
-// Load Game
-load_game();
-
 depth = -1000;
 real_fps_smooth = 0;
 alarm[10] = 30;  // Smooth FPS timer

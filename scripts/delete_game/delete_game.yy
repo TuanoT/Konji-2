@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"delete_game",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"delete_game",
+  "parent":{
+    "name":"Game",
+    "path":"folders/Scripts/Game.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

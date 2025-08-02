@@ -6,10 +6,11 @@ if (!double_check || double_check_stage == 1) {
 		// Execute the function
 		script_execute(func);
 		audio_play_sound(snd_tick, 1, false, global.gain);
+		double_check_stage = 0
 	} else {
 		
 		// Reset the double check stage
-		double_check_stage = 0
+		double_check_stage = 0;
 		image_blend = c_white;
 	}
 } else if double_check {
