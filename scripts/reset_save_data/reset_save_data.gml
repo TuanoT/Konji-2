@@ -4,5 +4,5 @@ function reset_save_data() {
 	delete_game(1);
 	room = rm_menu;
 	global.load_queued = true;
-	show_debug_message("nGame is queued to load \n");
+	show_debug_message("Game is queued to load \n");
 }
