@@ -12,4 +12,5 @@ proj_range[0] = 256;
 proj_sprite[0] = -1;
 proj_damage[0] = 10;
 proj_speed[0] = 8;
+proj_sound[0] = snd_tick;
 sight_multiplier[0] = 1.25;

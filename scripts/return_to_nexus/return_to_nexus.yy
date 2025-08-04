@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"return_to_nexus",
   "isCompatibility":false,
   "isDnD":false,

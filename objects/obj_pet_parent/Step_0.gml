@@ -40,6 +40,11 @@ for (var _i = 0; _i < array_length(proj_range); _i++) {
 												  proj_range[_i]
 				);
 				shoot_alarm[_i] = shoot_time[0];
+				
+				// Play sound
+				var _snd = proj_sound[_i];
+				var _pitch = random_range(.9, 1.1);
+				audio_play_sound(_snd, 1, false, global.gain, 0, _pitch);
 			}
 		}
 	}
