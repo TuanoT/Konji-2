@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"resume_game",
   "isCompatibility":false,
   "isDnD":false,

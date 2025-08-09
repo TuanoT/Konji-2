@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"enemy_wander",
   "isCompatibility":false,
   "isDnD":false,

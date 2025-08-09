@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"create_egg",
   "isCompatibility":false,
   "isDnD":false,

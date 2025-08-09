@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy_spawner",
+  "%Name":"obj_dungeon_portal",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_enemy_spawner",
+  "name":"obj_dungeon_portal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controller",
-    "path":"folders/Objects/Controller.yy",
+    "name":"World",
+    "path":"folders/Objects/World.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_portal",
+    "path":"objects/obj_portal/obj_portal.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,9 +34,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_controller_1",
-    "path":"sprites/spr_controller_1/spr_controller_1.yy",
+    "name":"spr_portal_0",
+    "path":"sprites/spr_portal_0/spr_portal_0.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

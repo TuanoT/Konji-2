@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"initialize_loot_tables",
   "isCompatibility":false,
   "isDnD":false,
