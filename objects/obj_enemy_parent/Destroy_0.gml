@@ -8,10 +8,9 @@ if random(1) <= drop_chance {
 	for (var _i = 0; _i < loot_amount; _i++) {
 		
 		// Find Items
-		var _table_index = irandom(array_length(loot_tables) - 1);
-		var _table = global.loot_table[_table_index];
-		var _item_index = irandom(array_length(_table) - 1);
-		_items[_i] = _table[_item_index];
+		var _table = global.loot_table[loot_table];
+		var _item_index = _table[irandom(array_length(_table) - 1)];
+		_items[_i] = _item_index;
 	}
 	create_crate(x, y, _items);
 }

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"attempt_enemy_spawn",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"attempt_enemy_spawn",
+  "parent":{
+    "name":"World",
+    "path":"folders/Scripts/World.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

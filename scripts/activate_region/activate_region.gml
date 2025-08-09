@@ -6,11 +6,12 @@ function activate_region() {
 	
 		// Deactivate unimportant world objects
 		instance_deactivate_object(obj_world_detail_parent);
+		instance_deactivate_object(obj_boulder);
 	
 		var _xcam = camera_get_view_x(view_camera[0]);
 		var _ycam = camera_get_view_y(view_camera[0]);
-		var _border = 128;
+		var _border = 64;
 		instance_activate_region(_xcam-_border, _ycam-_border,
-								 512+_border, 384+_border, true);
+								 512+_border*2, 384+_border*2, true);
 	}
 }

@@ -28,5 +28,5 @@ in_view = false;
 
 // Loot variables
 drop_chance = 1;
-loot_tables = [0];
+loot_table = 0;
 loot_amount = 2;
