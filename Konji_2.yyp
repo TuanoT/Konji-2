@@ -224,6 +224,7 @@
     {"id":{"name":"spr_tile_2","path":"sprites/spr_tile_2/spr_tile_2.yy",},},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},},
+    {"id":{"name":"spr_vault","path":"sprites/spr_vault/spr_vault.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
