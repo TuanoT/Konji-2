@@ -99,6 +99,7 @@
     {"id":{"name":"rm_nexus","path":"rooms/rm_nexus/rm_nexus.yy",},},
     {"id":{"name":"rm_options","path":"rooms/rm_options/rm_options.yy",},},
     {"id":{"name":"rm_overworld_1","path":"rooms/rm_overworld_1/rm_overworld_1.yy",},},
+    {"id":{"name":"rm_overworld_2","path":"rooms/rm_overworld_2/rm_overworld_2.yy",},},
     {"id":{"name":"activate_region","path":"scripts/activate_region/activate_region.yy",},},
     {"id":{"name":"apply_lifeform_effects","path":"scripts/apply_lifeform_effects/apply_lifeform_effects.yy",},},
     {"id":{"name":"create_crate","path":"scripts/create_crate/create_crate.yy",},},
@@ -190,6 +191,7 @@
     {"id":{"name":"spr_pet_ant","path":"sprites/spr_pet_ant/spr_pet_ant.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_portal_0","path":"sprites/spr_portal_0/spr_portal_0.yy",},},
+    {"id":{"name":"spr_portal_1","path":"sprites/spr_portal_1/spr_portal_1.yy",},},
     {"id":{"name":"spr_proj_ant","path":"sprites/spr_proj_ant/spr_proj_ant.yy",},},
     {"id":{"name":"spr_proj_bone_knife","path":"sprites/spr_proj_bone_knife/spr_proj_bone_knife.yy",},},
     {"id":{"name":"spr_proj_bone_shuriken","path":"sprites/spr_proj_bone_shuriken/spr_proj_bone_shuriken.yy",},},
@@ -223,6 +225,7 @@
     {"roomId":{"name":"rm_overworld_1","path":"rooms/rm_overworld_1/rm_overworld_1.yy",},},
     {"roomId":{"name":"rm_dead","path":"rooms/rm_dead/rm_dead.yy",},},
     {"roomId":{"name":"rm_options","path":"rooms/rm_options/rm_options.yy",},},
+    {"roomId":{"name":"rm_overworld_2","path":"rooms/rm_overworld_2/rm_overworld_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

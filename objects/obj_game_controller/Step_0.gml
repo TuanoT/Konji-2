@@ -51,7 +51,10 @@ if !global.paused {
 					}
 					
 					// Put the held item into the hovered slot now that the hovered slot is free
-					show_debug_message("The item in the hovered slot should be replaced by the held item\n")
+					show_debug_message("The item in the hovered slot (" +
+										string(global.hovered_slot.item) +
+										") should be replaced by the held item ( + " +
+										string(global.held_item.item) + "\n")
 					global.hovered_slot.item = global.held_item;
 					global.held_item = -1;
 				} else {
