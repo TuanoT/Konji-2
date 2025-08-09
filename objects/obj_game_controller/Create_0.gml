@@ -21,6 +21,11 @@ global.hovered_slot = noone;
 global.prev_slot = noone;
 global.current_crate = noone;
 
+// Progress unlocked
+// This array represents progress like unlocking doors and is saved on game close
+global.progress_length = 5;
+global.progress_unlocked = array_create(global.progress_length, false);
+
 initialize_items();
 initialize_loot_tables();
 initialize_enemy_tables();

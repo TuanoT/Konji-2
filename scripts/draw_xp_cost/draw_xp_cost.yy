@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_xp_cost",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_xp_cost",
+  "parent":{
+    "name":"GUI",
+    "path":"folders/Scripts/GUI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
