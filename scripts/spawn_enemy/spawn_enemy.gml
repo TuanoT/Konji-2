@@ -1,15 +1,15 @@
-function attempt_enemy_spawn(_x, _y) {
+function spawn_enemy(_x, _y) {
 	
 	var _obj = noone;
 	
 	switch room {
 		
 		case rm_overworld_1:
-			_obj = obj_ant;
+			_obj = random_weighted(obj_ant, 1);
 			break;
 			
 		case rm_overworld_2:
-			_obj = choose(obj_spider, obj_spider, obj_purple_spider);
+			_obj = random_weighted(obj_spider, 4, obj_purple_spider, 2);
 			break;
 	}
 	

@@ -28,5 +28,5 @@ if instance_number(obj_enemy_parent) < global.mob_cap {
 	}
 
 	// Create Enemy
-	attempt_enemy_spawn(_x, _y);
+	spawn_enemy(_x, _y);
 }

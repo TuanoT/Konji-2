@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"random_weighted",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"random_weighted",
+  "parent":{
+    "name":"Util",
+    "path":"folders/Scripts/Util.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

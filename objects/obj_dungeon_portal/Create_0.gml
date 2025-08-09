@@ -2,5 +2,5 @@
 
 event_inherited();
 
-name = "Grasslands";
+name = "Dungeon Test";
 level = rm_overworld_1;

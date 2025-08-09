@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"attempt_enemy_spawn",
+  "%Name":"spawn_enemy",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"attempt_enemy_spawn",
+  "name":"spawn_enemy",
   "parent":{
     "name":"World",
     "path":"folders/Scripts/World.yy",
