@@ -21,7 +21,7 @@ function random_weighted() {
     for (var _i = 0; _i < argument_count; _i += 2) {
         _cumulative += argument[_i + 1];
         if (_pick < _cumulative) {
-            return argument[i];
+            return argument[_i];
         }
     }
     

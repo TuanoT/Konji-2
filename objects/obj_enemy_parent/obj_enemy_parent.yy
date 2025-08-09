@@ -12,8 +12,8 @@
   "name":"obj_enemy_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Life Forms/Enemies.yy",
+    "name":"Life Forms",
+    "path":"folders/Objects/Life Forms.yy",
   },
   "parentObjectId":{
     "name":"obj_life_form",

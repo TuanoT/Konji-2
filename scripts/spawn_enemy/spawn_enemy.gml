@@ -5,7 +5,7 @@ function spawn_enemy(_x, _y) {
 	switch room {
 		
 		case rm_overworld_1:
-			_obj = random_weighted(obj_ant, 1);
+			_obj = random_weighted(obj_ant, 4, obj_green_slime, 2);
 			break;
 			
 		case rm_overworld_2:
