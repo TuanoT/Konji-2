@@ -9,7 +9,7 @@ function attempt_enemy_spawn(_x, _y) {
 			break;
 			
 		case rm_overworld_2:
-			_obj = obj_spider;
+			_obj = choose(obj_spider, obj_spider, obj_purple_spider);
 			break;
 	}
 	
