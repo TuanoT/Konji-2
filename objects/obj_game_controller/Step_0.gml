@@ -42,7 +42,6 @@ if !global.paused {
 							// Simply create a new create if the previous item is in a create slot
 							create_crate(obj_player.x, obj_player.y, [global.prev_slot.item, -1, -1, -1]);
 						}
-						show_debug_message("item in hovered_slot put into prev_slot\n");
 					} else {
 
 						// The both previous slot and hovered slots have items in them
@@ -51,12 +50,13 @@ if !global.paused {
 					}
 					
 					// Put the held item into the hovered slot now that the hovered slot is free
-					//show_debug_message("The item in the hovered slot (" +
-					//					string(global.hovered_slot.item) +
-					//					") should be replaced by the held item ( + " +
-					//					string(global.held_item.item) + "\n")
 					global.hovered_slot.item = global.held_item;
 					global.held_item = -1;
+					
+					// Update Create
+					if global.hovered_slot.type == "crate" {
+						global.current_crate.items[global.hovered_slot.slot_id] = global.hovered_slot.item;
+					}
 				} else {
 					
 					// Put item into the same slot but now there's a new item in it
