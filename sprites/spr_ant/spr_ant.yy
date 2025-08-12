@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Zone 1",
-    "path":"folders/Sprites/Enemies/Zone 1.yy",
+    "name":"Zone 2",
+    "path":"folders/Sprites/Enemies/Zone 2.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

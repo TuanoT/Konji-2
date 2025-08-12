@@ -3,17 +3,17 @@
 // Inherit from Lifeform
 event_inherited();
 
-hp = 40;
-max_hp = 40;
+hp = 60;
+max_hp = 60;
 spd = .5;
-xp = 10;
+xp = 15;
 
 behaviour = enemy_wander;
 
 // Proj vars
-proj_range[0] = 128;  // 0 turns off firing
-proj_sprite[0] = spr_proj_green_slime;
-proj_damage[0] = 12;
+proj_range[0] = 144;  // 0 turns off firing
+proj_sprite[0] = spr_proj_blue_slime;
+proj_damage[0] = 17;
 proj_speed[0] = 3;
 shoot_time_min[0] = 30;
 shoot_time_max[0] = 30;
@@ -26,5 +26,5 @@ ycenter = -14;
 
 // Loot variables
 drop_chance = .5;
-loot_table = 0;
+loot_table = 1;
 loot_amount = 1;

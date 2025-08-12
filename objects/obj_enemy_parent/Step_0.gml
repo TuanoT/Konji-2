@@ -36,7 +36,7 @@ for (var _i = 0; _i < array_length(proj_range); _i++) {
 			shoot_alarm[_i] = random_range(shoot_time_min[_i], shoot_time_max[_i]);
 			
 			// Increase shot angle
-			shot_direction[_i] += proj_direction_rotate_increment[_i];
+			shot_direction[_i] += proj_direction_rotate_increment[_i] * shot_direction_rotate_direction;
 		}
 	}
 	

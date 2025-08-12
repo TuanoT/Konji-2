@@ -3,5 +3,6 @@
 function return_to_nexus() {
 	if room != rm_nexus {
 		room = rm_nexus;
+		audio_play_sound(snd_nexus, 1, false);
 	}
 }

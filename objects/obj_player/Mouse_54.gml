@@ -1,6 +1,6 @@
 /// @description Use util
 
-if (global.free_mouse && can_shoot && utility_slot.occupied) {
+if (global.free_mouse && utility_slot.occupied) {
 	
 	var _util = utility_slot.item;
 	

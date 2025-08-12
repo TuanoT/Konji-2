@@ -29,9 +29,9 @@ for (var _y = 32; _y < room_height; _y += 64) {
 }
 
 
-// Repeat every 256 pixels
-for (var _y = 128; _y < room_height; _y += 256) {
-	for (var _x = 128; _x < room_width; _x += 256) {
+// Repeat every 128 pixels
+for (var _y = 64; _y < room_height; _y += 128) {
+	for (var _x = 64; _x < room_width; _x += 128) {
 		
 		switch room {
 		
@@ -42,9 +42,10 @@ for (var _y = 128; _y < room_height; _y += 256) {
 				var _yy = _y - 128 + irandom(512);
 				if valid_position(_xx, _yy) {
 					instance_create_layer(_xx, _yy, "World", obj_tree);
+					// Grass Tuffs
 					repeat irandom(2) {
 						var _xxx = _xx - 16 + irandom(32);
-						var _yyy = _yy - 16 + irandom(32);
+						var _yyy = _yy + irandom(8);
 						instance_create_layer(_xxx, _yyy, "World", obj_grass_tuft);
 					}
 				}

@@ -29,6 +29,7 @@ shot_direction[0] = 0;						// The direction of the projectile if shoot_at_playe
 ycenter = 0;
 
 in_view = false;
+shot_direction_rotate_direction = choose(-1, 1);	// Whether the enemy shot rotate clockwise or anti clockwise
 
 // Loot variables
 drop_chance = 1;
