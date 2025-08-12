@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"initialize_enemy_tables",
   "isCompatibility":false,
   "isDnD":false,

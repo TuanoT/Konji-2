@@ -1,6 +1,6 @@
 /// @description Fire Projectile
 
-if (global.free_mouse && can_shoot && weapon_slot.occupied) {
+if (global.free_mouse && can_shoot && weapon_slot.occupied && obj_game_controller.alarm[11] == -1) {
 	
 	var _weapon = weapon_slot.item;
 	

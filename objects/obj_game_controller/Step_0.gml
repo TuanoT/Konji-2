@@ -101,6 +101,7 @@ if !global.paused {
 
 	// Find if the mouse is free
 	if (global.hovered_slot == noone && global.held_item == -1) {
+			
 		global.free_mouse = true;	
 		cursor_sprite = spr_crosshair;
 	} else {

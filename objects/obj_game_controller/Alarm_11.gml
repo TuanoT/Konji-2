@@ -1,0 +1,1 @@
+/// @description Prevent shooting on start
