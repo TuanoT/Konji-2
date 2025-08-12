@@ -23,7 +23,7 @@ global.current_crate = noone;
 
 // Progress unlocked
 // This array represents progress like unlocking doors and is saved on game close
-global.progress_length = 5;
+global.progress_length = 1;
 global.progress_unlocked = array_create(global.progress_length, false);
 
 initialize_items();

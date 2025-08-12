@@ -47,6 +47,6 @@ function take_damage(_dmg) {
 	// Create particles
 	repeat 4 {
 		var _part = instance_create_depth(x, y, depth, obj_particle);
-		_part.init_particle(20, 30, spr_part_blood, random(360));
+		_part.init_particle(20, 30, particle_sprite, random(360));
 	}
 }

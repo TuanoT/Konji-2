@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_nexus",
+  "%Name":"snd_purchase",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
-  "name":"snd_nexus",
+  "duration":0.66325,
+  "name":"snd_purchase",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_nexus.wav",
+  "soundFile":"snd_purchase.wav",
   "type":0,
   "volume":1.0,
 }

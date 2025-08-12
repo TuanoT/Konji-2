@@ -26,6 +26,8 @@ proj_angle_increment[0] = 0;				// The angle between each projectile
 proj_direction_rotate_increment[0] = 0;		// The amount the direction changes after every shot
 proj_amount[0] = 1;							// The amount of projectiles per shot
 shot_direction[0] = 0;						// The direction of the projectile if shoot_at_player = false
+
+// Image vars
 ycenter = 0;
 
 in_view = false;

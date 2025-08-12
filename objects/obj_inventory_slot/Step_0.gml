@@ -2,6 +2,7 @@
 
 // Sync with crate
 if type == "crate" {
+	
 	// Deactivate Crate Slots
 	if global.current_crate == noone {
 		active = false;	

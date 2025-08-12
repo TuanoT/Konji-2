@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Projectiles",
-    "path":"folders/Sprites/Projectiles.yy",
+    "name":"Knife",
+    "path":"folders/Sprites/Projectiles/Knife.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

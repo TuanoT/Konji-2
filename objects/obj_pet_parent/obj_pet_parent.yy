@@ -10,8 +10,8 @@
   "name":"obj_pet_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Life Forms",
-    "path":"folders/Objects/Life Forms.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_world_object",

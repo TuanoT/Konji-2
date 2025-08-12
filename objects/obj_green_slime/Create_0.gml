@@ -9,6 +9,7 @@ spd = .5;
 xp = 10;
 
 behaviour = enemy_wander;
+particle_sprite = spr_part_green_slime;
 
 // Proj vars
 proj_range[0] = 128;  // 0 turns off firing

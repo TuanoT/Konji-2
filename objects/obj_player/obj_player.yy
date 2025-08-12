@@ -17,8 +17,8 @@
   "name":"obj_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Life Forms",
-    "path":"folders/Objects/Life Forms.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_life_form",
