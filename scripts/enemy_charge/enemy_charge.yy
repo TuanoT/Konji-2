@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"enemy_charge",
   "isCompatibility":false,
   "isDnD":false,

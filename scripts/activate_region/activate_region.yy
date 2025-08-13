@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"activate_region",
   "isCompatibility":false,
   "isDnD":false,

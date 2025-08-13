@@ -20,5 +20,10 @@ function save_game(_save_slot=1) {
 	ini_write_real("player", "xp", global.xp);	
 	ini_write_real("player", "levels", global.levels);
 	
+	// Load progress
+	for (var _i = 0; _i < global.progress_length; _i++) {
+		 ini_write_real("progress", string(_i), global.progress_unlocked[_i]);
+	}
+	
 	ini_close();
 }

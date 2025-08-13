@@ -14,8 +14,8 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Controller","folderPath":"folders/Objects/Controller.yy","name":"Controller","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Effects","folderPath":"folders/Objects/Effects.yy","name":"Effects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"GUI","folderPath":"folders/Objects/GUI.yy","name":"GUI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Objects/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"GUI","folderPath":"folders/Objects/GUI.yy","name":"GUI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"World","folderPath":"folders/Objects/World.yy","name":"World","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Details","folderPath":"folders/Objects/World/Details.yy","name":"Details","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Solid","folderPath":"folders/Objects/World/Solid.yy","name":"Solid","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -52,8 +52,8 @@
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Projectiles","folderPath":"folders/Sprites/Projectiles.yy","name":"Projectiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Sprites/Projectiles/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Pets","folderPath":"folders/Sprites/Projectiles/Pets.yy","name":"Pets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Knife","folderPath":"folders/Sprites/Projectiles/Knife.yy","name":"Knife","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Pets","folderPath":"folders/Sprites/Projectiles/Pets.yy","name":"Pets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Shuriken","folderPath":"folders/Sprites/Projectiles/Shuriken.yy","name":"Shuriken","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"World","folderPath":"folders/Sprites/World.yy","name":"World","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Details","folderPath":"folders/Sprites/World/Details.yy","name":"Details","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -66,7 +66,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"Konji_2",
   "resources":[

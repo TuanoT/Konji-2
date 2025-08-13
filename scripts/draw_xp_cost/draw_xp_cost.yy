@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"draw_xp_cost",
   "isCompatibility":false,
   "isDnD":false,

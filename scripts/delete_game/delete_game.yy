@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"delete_game",
   "isCompatibility":false,
   "isDnD":false,

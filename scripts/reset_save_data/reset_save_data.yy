@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"reset_save_data",
   "isCompatibility":false,
   "isDnD":false,

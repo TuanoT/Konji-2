@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"create_tome",
   "isCompatibility":false,
   "isDnD":false,

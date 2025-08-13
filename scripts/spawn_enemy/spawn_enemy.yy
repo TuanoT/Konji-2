@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"spawn_enemy",
   "isCompatibility":false,
   "isDnD":false,

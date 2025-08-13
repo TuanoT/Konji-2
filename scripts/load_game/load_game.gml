@@ -25,6 +25,11 @@ function load_game(_save_slot=1) {
 	global.xp = ini_read_real("player", "xp", 0);	
 	global.levels = ini_read_real("player", "levels", 0);
 	
+	// Load progress
+	for (var _i = 0; _i < global.progress_length; _i++) {
+		global.progress_unlocked[_i] = ini_read_real("progress", string(_i), false);
+	}
+	
 	// Close file
 	ini_close();
 }

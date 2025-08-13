@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"apply_lifeform_effects",
   "isCompatibility":false,
   "isDnD":false,
